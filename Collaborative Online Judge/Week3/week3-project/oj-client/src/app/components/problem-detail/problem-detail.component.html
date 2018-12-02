@@ -1,0 +1,16 @@
+<div class="container" *ngIf="problem">
+  <div class="row">
+    <div class="detail-container col-sm-12 col-md-4">
+      <div>
+        <strong class="problem-title">{{problem.id}}.{{problem.name}} 
+          <span class="{{'badge difficulty diff-' + problem.difficulty.toLocaleLowerCase()}}">{{problem.difficulty}}</span>
+        </strong> 
+        <p class="description">{{problem.desc}}</p>
+      </div>
+    </div>
+
+    <div class="hidden-xs col-sm-12 col-md-8">
+      <app-editor></app-editor>
+    </div>  
+  </div>      
+</div>

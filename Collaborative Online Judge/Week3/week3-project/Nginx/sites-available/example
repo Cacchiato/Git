@@ -1,0 +1,9 @@
+server {
+  listen 90; 
+  server_name example.com;
+  root /var/www/example;
+
+  location / {
+	try_files $uri $uri/ /index.html;
+  }
+}

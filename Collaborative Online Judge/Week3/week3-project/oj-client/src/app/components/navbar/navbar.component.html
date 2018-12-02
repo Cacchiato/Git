@@ -1,0 +1,59 @@
+<header id="top-header">
+  <nav class="navbar navbar-expand-lg navbar-inverse bg-faced fixed-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggler pull-left open" data-toggle="collapse" data-target="#navbarList">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">OJ-Client</a>
+      </div>
+
+      <!-- navbar list -->
+      <div class="collapse navbar-collapse" id="navbarList">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/']">Home<span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Problems</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" [routerLink]="['/problems/diff', 'easy']">Easy</a>
+                      <a class="dropdown-item" [routerLink]="['/problems/diff', 'medium']">Medium</a>
+                      <a class="dropdown-item" [routerLink]="['/problems/diff', 'hard']">Hard</a>
+                      <a class="dropdown-item" [routerLink]="['/problems/diff', 'super']">Super</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" [routerLink]="['/problems']">All Problems</a>
+                  </div>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/new-problem']">Add Problem</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [formControl]="searchBox">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div> 
+  </nav>
+</header>
+
+<footer class="bg-dark text-white fixed-bottom">
+  <ul>
+    <li>
+        <p><i class="fa fa-group fa-2x"></i><span class="info">About Us</span></p>
+    </li>
+
+    <li>
+      <p><i class="fa fa-envelope-o fa-2x"></i><span class="info">Help</span></p>
+    </li>
+
+    <li>
+      <p><i class="fa fa-phone fa-2x"></i><span class="info">Contact Us</span></p>
+    </li>
+  </ul>
+</footer>

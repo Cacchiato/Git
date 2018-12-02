@@ -1,0 +1,15 @@
+upstream executor {
+  server 127.0.0.1:5000;
+  server 127.0.0.1:5001;
+	server 127.0.0.1:5002;	
+}
+
+server {
+  listen 90; 
+
+  server_name excutor;
+
+  location / {	
+	proxy_pass http://executor;
+  }
+}
