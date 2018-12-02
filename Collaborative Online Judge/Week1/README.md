@@ -146,42 +146,42 @@ oj-client
 #### 1.1 home-page
 >- The `home-page` component displays the home page where the application can navigate to.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/1.gif)
+- image1
 
 #### 1.2 navbar
 >- The `navbar` component includes a fixed `navbar`(header) and a fixed `footer`.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/2.png)
+- image2.png
 
 #### 1.3 problem-list
 >- The `problem-list` component can be used to fetch all problems.
 >- Click `Problems` on the `navbar`, then choose `All Problems`.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/3.gif)
+- image3
 
 #### 1.4 problem-list-by-difficulty
 >- The `problem-list-by-difficulty` component can fetch a group of problems which have the same `difficulty`.
 >- Click `Problems` on the `navbar`, then choose a specific `difficulty`.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/4.gif)
+- image4
 
 #### 1.5 problem-detail
 >- This component provides the feature of displaying `detail` information of a problem.
 >- Two `injections` are used in this component: injected data service and injected router service.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/5.gif)
+- image5
 
 #### 1.6 problem-list-by-name
 >- This component supports the feature of `search` a problem.
 >- Type the `problem name` in the search area on the `navbar`, then the specific problem will be displayed.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/6.gif)
+- image6
 
 #### 1.7 new-problem
 >- This component provides the feature of adding a new problem.
 >- Click `Add Problem` on the `navbar`, then adding the details of a new problem.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week1/img/7.gif)
+- image7
 
 ### 2. Data Service 
 - Components should not fetch data directly so we use service to access data. 
