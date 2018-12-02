@@ -74,7 +74,7 @@ $ git status
 >- b. Stage - temporary storage
 >- c. Repository - version library 
 
-![image 4](https://github.com/Cacchiato/Git/blob/master/Git/images/4.png) 
+- images
 
 ```shell
 $ git add - add the modified file into the Stage area
