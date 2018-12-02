@@ -1,0 +1,41 @@
+.container {
+    float: both;
+    margin-top: 100px;
+}
+
+.detail-container {
+    margin-top: 20px;
+    background-color: lightblue;
+}
+
+.problem-title {
+    font-size: 1.2em;
+}
+
+.difficulty {
+    min-width: 65px;
+    margin-right: 10px;
+}
+
+.badge.difficulty {
+    margin-left: 50px;
+    padding-top: 0.6em;
+    color: #fbfdfa;
+    font-size: 14px;
+}
+
+.diff-easy {
+    background-color: #42ebf4;
+}
+
+.diff-medium {
+    background-color: #92cf5c;
+}
+
+.diff-hard {
+    background-color: #dd0d1e;
+}
+
+.diff-super {
+    background-color: #8d16e2;
+}

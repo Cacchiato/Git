@@ -1,0 +1,11 @@
+<app-navbar></app-navbar> 
+<div class="container" *ngIf="problem"> 
+  <div class="detail-container col-sm-12 col-md-12">
+    <div>
+      <strong class="problem-title">{{problem.id}}.{{problem.name}} 
+        <span class="{{'badge difficulty diff-' + problem.difficulty.toLocaleLowerCase()}}">{{problem.difficulty}}</span>
+      </strong> 
+      <p>{{problem.desc}}</p>
+    </div>
+  </div>
+</div>

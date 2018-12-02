@@ -1,0 +1,46 @@
+.detail-container {
+    margin: 120px auto;
+}
+
+.problem-title {
+    font-size: 1.5em;
+    display:flex; 
+    align-items: center;  
+}
+
+.difficulty {
+    min-width: 65px;
+    margin-right: 10px;
+}
+
+.badge.difficulty {
+    margin-left: 20px;
+    padding: 0.5em;
+    color: #fbfdfa;
+    font-size: 14px;
+}
+
+.diff-easy {
+    background-color: #42ebf4;
+}
+
+.diff-medium {
+    background-color: #92cf5c;
+}
+
+.diff-hard {
+    background-color: #dd0d1e;
+}
+
+.diff-super {
+    background-color: #8d16e2;
+}
+
+.description {
+    margin-top: 10px;
+    padding: 10px;
+    
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    background-color: #F5FFFA;
+}

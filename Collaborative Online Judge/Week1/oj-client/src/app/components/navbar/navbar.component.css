@@ -1,0 +1,38 @@
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.navbar-toggler .icon-bar {
+    background-color: #000;
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8em;
+    height: 150px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p.quote {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+footer ul {
+    align-items: center;
+    display: flex;
+    padding: 10px, 20px, 20px, 20px;
+}
+
+footer ul li {
+    flex: 1;
+}
