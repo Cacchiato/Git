@@ -146,42 +146,42 @@ oj-client
 #### 1.1 home-page
 >- The `home-page` component displays the home page where the application can navigate to.
 
-- image1
+![image 1](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/1.gif)
 
 #### 1.2 navbar
 >- The `navbar` component includes a fixed `navbar`(header) and a fixed `footer`.
 
-- image2.png
+![image 2](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/2.png)
 
 #### 1.3 problem-list
 >- The `problem-list` component can be used to fetch all problems.
 >- Click `Problems` on the `navbar`, then choose `All Problems`.
 
-- image3
+![image 3](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/3.gif)
 
 #### 1.4 problem-list-by-difficulty
 >- The `problem-list-by-difficulty` component can fetch a group of problems which have the same `difficulty`.
 >- Click `Problems` on the `navbar`, then choose a specific `difficulty`.
 
-- image4
+![image 4](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/4.gif)
 
 #### 1.5 problem-detail
 >- This component provides the feature of displaying `detail` information of a problem.
 >- Two `injections` are used in this component: injected data service and injected router service.
 
-- image5
+![image 5](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/5.gif)
 
 #### 1.6 problem-list-by-name
 >- This component supports the feature of `search` a problem.
 >- Type the `problem name` in the search area on the `navbar`, then the specific problem will be displayed.
 
-- image6
+![image 6](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/6.gif)
 
 #### 1.7 new-problem
 >- This component provides the feature of adding a new problem.
 >- Click `Add Problem` on the `navbar`, then adding the details of a new problem.
 
-- image7
+![image 7](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week1/img/7.gif)
 
 ### 2. Data Service 
 - Components should not fetch data directly so we use service to access data. 
