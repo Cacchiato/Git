@@ -136,7 +136,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 - define `npm start` as `nodemon server.js` in `package.json`
 - use `npm start` to launch the server
 
-```javascript
+```JavaScript
 //open package.json
 "scripts": {
 	"start": "nodemon server.js"
@@ -147,7 +147,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 ### I. Use MongoDB as the Datastore
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/1.png)
+- image1
 
 #### Server-side Data Service
 
@@ -187,7 +187,7 @@ const ProblemModel = mongoose.model('ProblemModel', ProblemSchema);
 
 ###### Service 1 - fetch all problems from database
 
-```javascript
+```Typescript
 //returned a Promise 
 const getProblems = function() {
 	return new Promise((resolve, reject) => {
@@ -199,7 +199,7 @@ const getProblems = function() {
 ```
 ###### Service 2 - fetch one problem by `id` from database
 
-```javascript
+```JavaScript
 //returned a Promise 
 const getProblem = function(id) {
 	return new Promise((resolve, reject) => {
@@ -211,7 +211,7 @@ const getProblem = function(id) {
 ```
 ###### Service 3 - fetch problems by difficulty
 
-```javascript
+```JavaScript
 //returned a Promise 
 const getProblemsByDiff = function(difficulty) {
 	return new Promise((resolve, reject) => {
@@ -223,7 +223,7 @@ const getProblemsByDiff = function(difficulty) {
 ```
 ###### Service 4 - add a new problem
 
-```javascript
+```JavaScript
 //returned a Promise 
 const addProblem = function(newProblem) {
 	return new Promise((resolve, reject) => {
@@ -235,7 +235,7 @@ const addProblem = function(newProblem) {
 ```
 ###### Service 5 - Modify a problem
 
-```javascript
+```typescript
 //returned a Promise 
 const modifyProblem = function(name) {
 	return new Promise((resolve, reject) => {
@@ -308,7 +308,7 @@ router.post('/problems', jsonParser, function(req, res) {
 - Modification is realized in back-end server, as the user in client side should not be able to modify a problem.
 - Use `Postman`to test this feature - modify `4Sum`
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/4.gif)
+- image4
 
 ```javascript
 router.put('/problems/:name', function(req, res) {
@@ -326,7 +326,8 @@ Refactoring the data service
 * Set the services as `Observable` or `Promise`
 
 ### II. Collaborative Editing
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/2.png)
+
+-image 2
 
 #### Client Side
 
@@ -384,7 +385,7 @@ $ npm i ace-builds
 - It also can show the participants who are working on the same problem.
 - UI support has not been finished, but we can use `Console` in `Chrome` to display these features.
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/5.gif)
+- image5
 
 1. Create a `session` component
 
@@ -422,7 +423,7 @@ io.attach(server);
 
 ### III. Search Feature in Navbar
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/3.png)
+-image 3
 
 * Provide the search feature in problem-list when entering a term in the `searchBox` of navbar
 	* The term can be part of a problem-name or problem-difficulty 
@@ -459,4 +460,4 @@ $ ng g p search
 
 6. Import `ReactiveFormsModule` in `app.module.ts`
 
-![image](https://github.com/zhewangjoe/BitTiger-CS503-1802/blob/CrazyDonut/Week2/img/6.gif)
+- image6
