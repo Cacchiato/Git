@@ -31,7 +31,7 @@ $ git init
 This creates a new subdirectory called `.git` which contains all of your necessary repository files - a Git repository skeleton. At this point, nothing in your project is tracked yet.
 Note: `.git` file is hidden :wink:
 
-![image 1](https://github.com/Cacchiato/leleNote/blob/master/Git/images/1.png) 
+- image1
 
 ## Add Files into the Repository
 
@@ -39,7 +39,7 @@ Note: `.git` file is hidden :wink:
 $ git add <file_directory> //can be executed multiple times to add different files
 $ git status  //check the status of your files
 ```
-![image 2](https://github.com/Cacchiato/leleNote/blob/master/Git/images/2.png)
+- image2
 
 ## Commit Files to the Repository
 
@@ -53,7 +53,7 @@ $ git commit -m "
 > 2) Second line of the extended message
 > "
 ```
-![image 3](https://github.com/Cacchiato/leleNote/blob/master/Git/images/3.png)
+- image3
 
 ## Modify Contents 
 
@@ -73,13 +73,14 @@ $ git status
 >- b. Stage - temporary storage
 >- c. Repository - version library 
 
-![image 4](https://github.com/Cacchiato/leleNote/blob/master/Git/images/4.jpg)
+- image4
 
 ```shell
 $ git add - add the modified file into the Stage area
 $ git commit - commit all the files in the Stage area to the current branch "master"
 ```
-![img 5](https://github.com/Cacchiato/leleNote/blob/master/Git/images/5.png)
+
+- image5
 
 ### 2. Manage Modification
 
