@@ -147,7 +147,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 ### I. Use MongoDB as the Datastore
 
-- image1
+![image 1](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/1.png)
 
 #### Server-side Data Service
 
@@ -308,7 +308,7 @@ router.post('/problems', jsonParser, function(req, res) {
 - Modification is realized in back-end server, as the user in client side should not be able to modify a problem.
 - Use `Postman`to test this feature - modify `4Sum`
 
-- image4
+![image 4](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/4.gif)
 
 ```javascript
 router.put('/problems/:name', function(req, res) {
@@ -327,7 +327,7 @@ Refactoring the data service
 
 ### II. Collaborative Editing
 
--image 2
+![image 2](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/2.png)
 
 #### Client Side
 
@@ -385,7 +385,7 @@ $ npm i ace-builds
 - It also can show the participants who are working on the same problem.
 - UI support has not been finished, but we can use `Console` in `Chrome` to display these features.
 
-- image5
+![image 5](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/5.gif)
 
 1. Create a `session` component
 
@@ -423,7 +423,7 @@ io.attach(server);
 
 ### III. Search Feature in Navbar
 
--image 3
+![image 3](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/3.png)
 
 * Provide the search feature in problem-list when entering a term in the `searchBox` of navbar
 	* The term can be part of a problem-name or problem-difficulty 
@@ -460,4 +460,4 @@ $ ng g p search
 
 6. Import `ReactiveFormsModule` in `app.module.ts`
 
-- image6
+![image 6](https://github.com/Cacchiato/Notes/blob/master/Collaborative%20Online%20Judge/Week2/week2-project/img/6.gif)
